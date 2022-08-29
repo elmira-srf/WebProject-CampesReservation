@@ -1,0 +1,122 @@
+/* universal CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header-section {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+li>a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-underline-offset: 7px;
+}
+
+/* Bookinh Page CSS */
+.thirdPage-mainContainer {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+}
+.page-button button {
+    height: 40px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: gray;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.page-button button.selected {
+    color: black;
+    border-bottom: solid 2px aquamarine;
+}
+input {
+    width: 300px;
+    padding: 10px 15px;
+}
+
+#reserveButton {
+    color: white;
+    background-color: #48BF91;
+    width: 80px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.reservation-section {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+}
+
+#top {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#numberOfNights {
+    width: 70px;
+}
+
+.getInfo {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+
+.selectorTag {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.selectorTag >lable {
+    font-weight: bold;
+}
+
+.campsiteDetails {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.campsiteDetails >p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.guestDetail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.receipt >p{
+    font-size: 20px;
+}
+
+.receipt >h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.noFeature{
+    color: red;
+}

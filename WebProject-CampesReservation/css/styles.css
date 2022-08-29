@@ -1,0 +1,124 @@
+/* universal CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header-section {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+li>a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-underline-offset: 7px;
+}
+
+/* Main */
+.firstPage-mainContainer {
+    height: 94vh;
+    background-image: url("/assets/tommy-lisbin-2DH-qMX6M4E-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+main h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    width: 50vw;
+    padding: 40px;
+}
+
+
+.input-field {
+    color: #000000;
+    border: 1px solid #06d6a0;
+    border-radius: 2px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+}
+
+
+.formContainer {
+    padding: 5% 5% 5% 8%;
+    width: 50vw;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: auto;
+    margin: auto;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    display: inline-block;
+    width: 100%;
+}
+
+.grid-item label {
+    text-transform: uppercase;
+    display: inline-block;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+select {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    color: #000000;
+    border: 1px solid #06d6a0;
+    border-radius: 2px;
+    font-size: 15px;
+    padding-left: auto;
+}
+
+.custom-button {
+    background-color: #06d6a0;
+    color: #FFFFFF;
+    border: 1px solid #06d6a0;
+    border-radius: 2px;
+    /* padding: 10px; */
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    bottom: -12px;
+}
+
+.custom-button:hover {
+    cursor: pointer;
+}
